@@ -1,21 +1,26 @@
 import React from 'react';
 import makers from '../data.js'
 import Abilities from './Abilities.js';
+import { Link } from 'react-router-dom';
 
 class MainContainer extends React.Component {
   render() {
     return(
-      <div>
-        <h1>Army of Makers</h1>
-        {
-          makers.map(maker => (
-            <div className="maker-container">
-              <img className="maker-img" src={`images/${maker.img}`} />
-              <h1 className="maker-name">{maker.name}</h1>
-              <Abilities abilities={maker.abilities} />
-            </div>
-          ))
-        }
+      <div className="container">
+        <h1 className="makers-title"> The Makers</h1>
+        <div className="grid-container">
+          {
+            makers.map(maker => (
+              <Link to={`/profile/${maker.id}`}
+                className="maker-container"
+                key={maker.id}>
+                <img className="maker-img" src={`images/${maker.img}`} />
+                <h3 className="maker-name">{maker.name}</h3>
+                <Abilities abilities={maker.abilities} />
+              </Link>
+            ))
+          }
+        </div>
       </div>
     )
   }

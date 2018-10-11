@@ -5,9 +5,9 @@ const Abilities = (props) => {
   const abilities = props.abilities;
 
   return (
-    <div>
+    <div className="abilities-container">
       {
-        abilities.forEach((i) => {
+        abilities.map((i) => {
           switch (i) {
             case 1:
               return (<img className="ability" src="images/diseno.png" key={i}/>);

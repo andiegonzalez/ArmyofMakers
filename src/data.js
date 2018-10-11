@@ -6,6 +6,7 @@
 
 const makers = [
   {
+    id: "1",
     name: "Andrea Gonzalez Arteaga",
     img: "IMG_2012.jpg",
     email: "a.gzzart@gmail.com",
@@ -20,6 +21,7 @@ const makers = [
     abilities: [1, 3]
   },
   {
+    id: "2",
     name: "Diana Laura Serrato Lara",
     img: "IMG_2030.jpg",
     email: "dianalserratol@gmail.com",
@@ -34,6 +36,7 @@ const makers = [
     abilities: [1, 2]
   },
   {
+    id: "3",
     name: "Armando García Zacaneyes",
     img: "IMG_2027.jpg",
     email: "armant_93@hotmail.com",
@@ -49,6 +52,7 @@ const makers = [
     abilities: [1, 2]
   },
   {
+    id: "4",
     name: "Jesucristo Torres Toledo",
     img: "IMG_2015.jpg",
     email: "jesucristo001@hotmail.com",
@@ -64,6 +68,7 @@ const makers = [
     abilities: [1, 2, 3, 4]
   },
   {
+    id: "5",
     name: "Enrique Antonio Vazquez Morales",
     img: "IMG_2026.jpg",
     email: "enrique.vazquez0296@gmail.com",
@@ -77,6 +82,7 @@ const makers = [
     abilities: [1, 2]
   },
   {
+    id: "6",
     name: "Luis Fernando Garza Vera",
     img: "IMG_2028.jpg",
     email: "a00823226@itesm.mx",
@@ -92,6 +98,7 @@ const makers = [
     abilities: [1, 2, 3, 4]
   },
   {
+    id: "7",
     name: "Emmanuel Sámano Ornelas",
     img: "IMG_2019.jpg",
     email: "emmanuel.samano96@gmail.com",
@@ -108,6 +115,7 @@ const makers = [
     abilities: [1, 2, 3, 4]
   },
   {
+    id: "8",
     name: "Gabriel Arturo Ramírez Marrujo",
     img: "IMG_2017.jpg",
     email: "arturo.rama97@gmail.com",
@@ -122,6 +130,7 @@ const makers = [
     abilities: [2, 3, 4]
   },
   {
+    id: "9",
     name: "Emiliano Sedano Zúñiga",
     img: "IMG_2020.jpg",
     email: "esz_1996@hotmail.com",
@@ -136,6 +145,7 @@ const makers = [
     abilities: [1, 3]
   },
   {
+    id: "10",
     name: "Emmanuel González García",
     img: "IMG_2023.jpg",
     email: "A00516578@itesm.mx",
@@ -153,6 +163,7 @@ const makers = [
     abilities: [1, 2, 3, 4]
   },
   {
+    id: "11",
     name: "Enrique Andrés Esquivel González",
     img: "",
     email: "eaeg2596@gmail.com",
@@ -168,6 +179,7 @@ const makers = [
     abilities: [2, 4]
   },
   {
+    id: "13",
     name: "Juan Antonio Peña Cortez",
     img: "IMG_2021.jpg",
     email: "A00515814@itesm.mx",

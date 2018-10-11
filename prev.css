@@ -1,0 +1,120 @@
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+*,*:before,*after{
+	box-sizing: inherit;
+/*	hereda el valor de arriba, el border-box*/
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: verdana, geneva, serif;
+	color: white;
+}
+header{
+	text-align: center;
+	padding: 20px 0;
+	background-color: #40E0D0;
+}
+header img{
+	width: 800px;
+}
+div.contenedor{
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+h2{
+	text-align: center;
+	color:  #40E0D0;
+	text-transform: uppercase;
+	margin:30px 0;
+}
+ul.lista-makers{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+/*	reinicia la lista*/
+}
+
+/*estilos*/
+ul.lista-makers>li{
+	float: left;
+	width: 28.3%;
+	padding: 20px;
+	text-align: center;
+/*	se debe tener cuidado con el tama;o de las imagenes*/
+}
+ul.perfiles li{
+	float: left;
+	width: 17%;
+	padding: 10px 5px 0px 0px;
+	text-align: center;
+}
+ul.lista-makers::after{
+	content: '';
+	display: block;
+	clear: both;
+	/*te permite usar el float*/
+}
+ul.lista-makers>li:nth-of-type(3n+1){
+	clear: both;
+
+	/*con esta instruccion limpia los huecos*/
+	/*toma la imagen 2(0)+1=1 que seria la imagen 1 y luego la 3*/
+}
+
+ul.lista-makers li img{
+	width: 90%;
+	border-radius: 50%;
+}
+/*makers*/
+.boton{
+	/*background-color: #ffce00;*/
+	padding: 10px 40px;
+/*	separacion 10 arriba/abajo, 40 lados*/
+	display: inline-block;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(64,224,208,.8);
+	font-size: 18px;
+}
+.boton:hover{
+	color: rgba(64,224,208,1);
+}
+
+/*footer*/
+div.footer  footer{
+	background-color: #40E0D0;
+	padding-top: 40px;
+	margin-top: 30px;
+}
+
+footer h2{
+	color: white;
+}
+
+footer .contenedor2::after{
+	content: '';
+	display: block;
+	clear: both;
+	/*te permite usar el float*/
+}
+footer div.nosotros{
+	float: left;
+	width: 100%;
+	color: white;
+	text-align: justify;
+}
+
+
+p.copyright{
+	padding: 20px 0;
+	text-align: center;
+	color: white;
+}
