@@ -14,7 +14,7 @@ class MainContainer extends React.Component {
               <Link to={`/profile/${maker.id}`}
                 className="maker-container"
                 key={maker.id}>
-                <img className="maker-img" src={`images/${maker.img}`} />
+                <img className="maker-img" src={`images/${maker.img}`} alt="Imagen de Perfil de Maker"/>
                 <h3 className="maker-name">{maker.name}</h3>
                 <Abilities abilities={maker.abilities} />
               </Link>

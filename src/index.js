@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Profile from './views/profile';
-import MainContainer from './components/MainContainer';
+import Home from './views/home';
+import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 
 render(
@@ -12,7 +13,7 @@ render(
     <App>
       <Switch>
         <Route path={"/profile/:id"} render={() => ( <Profile /> )} />
-        <Route path="/" render={() => ( <MainContainer /> )} />
+        <Route path="/" render={() => ( <Home /> )} />
       </Switch>
     </App>
   </Router>

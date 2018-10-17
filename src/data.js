@@ -165,7 +165,7 @@ const makers = [
   {
     id: "11",
     name: "Enrique Andrés Esquivel González",
-    img: "",
+    img: "IMG_2040.jpg",
     email: "eaeg2596@gmail.com",
     celular: "2292462051",
     carrera: "IMT",
