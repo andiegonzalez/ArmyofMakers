@@ -5,6 +5,7 @@
   "homepage": "http://andreagzz11.github.io/ArmyofMakers",
   "dependencies": {
     "animated": "^0.2.2",
+    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
