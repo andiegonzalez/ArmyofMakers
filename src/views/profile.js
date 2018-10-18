@@ -37,7 +37,7 @@ class Profile extends React.Component {
             </ul>
           </div>
         </div>
-        <ContactForm />
+        <ContactForm maker={maker}/>
       </div>
     );
   }
