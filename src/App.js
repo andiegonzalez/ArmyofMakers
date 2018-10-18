@@ -7,8 +7,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/*<Navbar />
-        <Hero />*/}
         {this.props.children}
         <Footer />
       </div>
