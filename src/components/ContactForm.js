@@ -12,7 +12,7 @@ const ContactForm = (props) => {
         action={`https://formspree.io/${maker.email}`}
         method="POST">
         <div className="form-group">
-          <label for="name">Nombre</label>
+          <label>Nombre</label>
           <input
             type="text"
             name="Nombre"
@@ -20,7 +20,7 @@ const ContactForm = (props) => {
             id="name" />
         </div>
         <div className="form-group">
-          <label for="exampleInputEmail1">
+          <label>
             Correo Electrónico
           </label>
           <input
@@ -31,7 +31,7 @@ const ContactForm = (props) => {
             aria-describedby="emailHelp" />
         </div>
         <div className="form-group">
-          <label for="message">Mensaje</label>
+          <label>Mensaje</label>
           <textarea
             className="form-control"
             name="Mensaje"
