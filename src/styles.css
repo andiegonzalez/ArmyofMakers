@@ -24,7 +24,7 @@ li {
 }
 
 .fa-chevron-down {
-  margin: 10% 0;
+  margin: 15% 0;
   font-size: 30pt;
   display: block;
 }
@@ -42,6 +42,7 @@ li {
 
 .container {
   width: 100%;
+  padding: 20px 0;
 }
 
 .makers-title {
@@ -105,7 +106,20 @@ li {
 
 nav {
   width: 100%;
+  padding: 10px 20px;
   font-size: 17pt;
+  background-color: #CAEFEF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-img {
+  width: 100%;
+}
+
+.nav-link {
+  max-width: 80px;
 }
 
 .profile-container {
@@ -159,6 +173,8 @@ nav {
   width: 80%;
   margin: 0 auto;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-group {
@@ -166,6 +182,7 @@ nav {
   flex-direction: row;
   padding: 10px 0;
   justify-content: space-around;
+  align-items: center;
 }
 
 label {
@@ -174,10 +191,38 @@ label {
   font-size: 15pt;
 }
 
-input {
+.form-group:nth-child(3) > label {
+  align-self: flex-start;
+  padding-top: 0;
+}
+
+input, textarea {
+  padding: 6px;
   height: 40px;
-  font-size: 15pt;
+  font-size: 13pt;
   flex-grow: 1;
+  border-style: solid;
+  border-color: #aaa;
+  border-width: .5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.submit {
+  width: 40%;
+  font-size: 20pt;
+  margin: 20px 20px;
+  padding: 5px 10px;
+  align-self: center;
+  background-color: #CAEFEF;
+  border-style: none;
+}
+
+.contact-title {
+  padding-top: 50px;
+  text-align: center;
 }
 
 footer{
@@ -185,7 +230,6 @@ footer{
   margin:0;
   background-color: #CAEFEF;
   padding-top: 30px;
-  margin-top: 30px;
   padding-bottom: 40px;
   text-align: center;
 

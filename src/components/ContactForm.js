@@ -4,6 +4,7 @@ class ContactForm extends React.Component {
   render() {
     return(
       <div className="contact-container">
+        <h1 className="contact-title">¿Quieres trabajar conmigo? Envíame un mensaje!</h1>
         <form
           id="contact-form"
           method="POST">

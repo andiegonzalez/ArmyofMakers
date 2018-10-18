@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Profile from './views/profile';
 import Home from './views/home';
-import Footer from './components/Footer';
+import ScrollToTop from 'react-router-scroll-top'
 import * as serviceWorker from './serviceWorker';
 
 render(
@@ -15,6 +15,7 @@ render(
         <Route path={"/profile/:id"} render={() => ( <Profile /> )} />
         <Route path="/" render={() => ( <Home /> )} />
       </Switch>
+      <ScrollToTop/>
     </App>
   </Router>
 , document.getElementById('root'));

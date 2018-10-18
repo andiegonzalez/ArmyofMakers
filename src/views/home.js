@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import MainContainer from '../components/MainContainer';
 
 class Home extends React.Component {
+
   render() {
     return(
       <div>

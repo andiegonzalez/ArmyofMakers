@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import ContactForm from '../components/ContactForm';
 
 class Profile extends React.Component {
+
   findMaker(makerId) {
     return Makers.find(maker => makerId === maker.id)
   }
@@ -31,8 +32,8 @@ class Profile extends React.Component {
             </ul>
             <p><strong>Datos de Contacto:</strong></p>
             <ul className="profile-list">
-              <li className="profile-contacto">{maker.email}</li>
-              <li className="profile-contacto">{maker.celular}</li>
+              <li className="profile-contacto">Correo electrónico: {maker.email}</li>
+              <li className="profile-contacto">Celular: {maker.celular}</li>
             </ul>
           </div>
         </div>
