@@ -191,7 +191,22 @@ const makers = [
     ],
     mensaje: ".",
     abilities: [1, 4]
+  },
+  {
+    id: "14",
+    name: "Alejandra Díaz de León Lastras",
+    img: "IMG_2013.jpg",
+    email: "adiazdeleon@itesm.mx",
+    celular: "-",
+    carrera: "-",
+    perfil: [
+      "Diseño Gráfico",
+      "Diseño Web",
+      "Desarrollo Web"
+    ],
+    mensaje: "-",
+    abilities: [1, 3]
   }
 ]
 
-export default makers;
+export default makers

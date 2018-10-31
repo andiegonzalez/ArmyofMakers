@@ -5,6 +5,7 @@ import App from './App';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Profile from './views/profile';
 import Home from './views/home';
+import Projects from './views/projects';
 import ScrollToTop from 'react-router-scroll-top'
 import * as serviceWorker from './serviceWorker';
 
@@ -13,6 +14,7 @@ render(
     <App>
       <Switch>
         <Route path={"/profile/:id"} render={() => ( <Profile /> )} />
+        <Route path={"/projects"} render={() => ( <Projects /> )} />
         <Route path="/" render={() => ( <Home /> )} />
       </Switch>
       <ScrollToTop/>

@@ -42,7 +42,7 @@ const ContactForm = (props) => {
         <button type="submit" className="submit">Enviar</button>
         <input type="hidden" name="_next" value="/" />
         <input type="hidden" name="_subject" value={`New submission for ${maker.name}!`} />
-        <input type="hidden" name="_cc" value="a.gzzart@hotmail.com" />
+        <input type="hidden" name="_cc" value="adiazdeleon@itesm.mx" />
       </form>
     </div>
   );
